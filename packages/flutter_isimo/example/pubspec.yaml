@@ -1,0 +1,21 @@
+name: flutter_isimo_example
+description: >-
+  A runnable Flutter counter app demonstrating isimo's StoreProvider and the
+  context.useStore selector hook with surgical rebuilds.
+publish_to: none
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_isimo:
+    path: ..
+  isimo:
+    path: ../../isimo
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^6.0.0

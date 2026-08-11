@@ -1,0 +1,25 @@
+name: todo_app
+description: "A fully operational todo app built to stress-test the isimo + flutter_isimo state management packages."
+publish_to: 'none'
+version: 0.1.0+1
+resolution: workspace
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  isimo:
+    path: ../../packages/isimo
+  flutter_isimo:
+    path: ../../packages/flutter_isimo
+  shared_preferences: ^2.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,31 @@
+name: flutter_isimo
+description: >-
+  Flutter bindings for the `isimo` state management engine. Scopes pure Dart
+  `Store<T>` instances into the widget tree via `StoreProvider<T>` and provides
+  the `context.useStore` selector hook for surgical, equality-gated rebuilds.
+version: 1.0.0
+publish_to: none  # Remove this + switch `isimo:` to `^1.0.0` before publishing (after isimo is on pub.dev)
+resolution: workspace
+homepage: https://github.com/mmngadi/isimo
+repository: https://github.com/mmngadi/isimo/tree/master/packages/flutter_isimo
+issue_tracker: https://github.com/mmngadi/isimo/issues
+topics:
+  - state-management
+  - zustand
+  - flutter
+  - dart
+  - reactive
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  isimo:
+    path: ../isimo
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^6.0.0
