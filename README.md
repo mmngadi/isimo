@@ -5,7 +5,7 @@ A lightweight, zero-boilerplate, atomic state management engine for Dart and Flu
 Isimo uses a decoupled **Core-and-Binding** architecture: a pure Dart core (`isimo`) with zero Flutter dependencies, and a Flutter bindings companion (`flutter_isimo`) for surgical UI rebuilds.
 
 ```text
-isimo_monorepo/
+isimo/
 ├── packages/
 │   ├── isimo/            # Pure Dart core (zero Flutter SDK dependency)
 │   └── flutter_isimo/    # Flutter widget bindings & BuildContext extensions
